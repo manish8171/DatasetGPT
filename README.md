@@ -1,0 +1,267 @@
+<div align="center">
+
+# 🌌 DatasetGPT — Autonomous AI Data Laboratory & Workspace
+
+**A futuristic, production-grade AI Data Workspace powered by Ashna AI, Kaggle Engine, and UCI Machine Learning Repository.**
+
+[![Python](https://img.shields.io/badge/Python-3.13+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Security Audited](https://img.shields.io/badge/Security-Hardened_🛡️-10B981?style=for-the-badge)](docs/SECURITY.md)
+[![License](https://img.shields.io/badge/License-MIT-8B5CF6?style=for-the-badge)](LICENSE)
+
+<br />
+
+[Features](#-key-features) • [Architecture](#-system-architecture) • [Getting Started](#-getting-started) • [API Reference](#-api-reference) • [Security Policy](#-security-hardening) • [License](#-license)
+
+</div>
+
+---
+
+## 💡 Overview
+
+**DatasetGPT** is a unified AI-powered data platform designed for data scientists, machine learning engineers, and researchers. It seamlessly connects to **Kaggle** and the **UCI Machine Learning Repository** to automate dataset discovery, downloading, unzipping, tabular exploratory data analysis (EDA), data visualization, and AI baseline model recommendation.
+
+The user interface features a **desktop-first 3-column glassmorphism workspace shell** with purple ambient lighting, command search palette (`⌘K`), quick action pills, automated discovery cards, interactive charts, and instant ZIP archiving.
+
+---
+
+## ⚡ Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| 🔍 **Multi-Hub Dataset Search** | Simultaneously queries Kaggle Datasets API and UCI Machine Learning Repository (`archive.ics.uci.edu`). |
+| 🤖 **Ashna AI Data Co-pilot** | Natural language queries, automatic fallback keyword extraction, baseline ML script generation, and structured tables. |
+| 📊 **Tabular EDA Profiler** | Interactive data profiler drawer displaying row counts, column datatypes, null percentage distributions, and summary stats. |
+| 🎨 **Futuristic UI Shell** | Deep navy plum glassmorphism theme (`#080A12`), active pill switches, analytics cards, and AI discovery panels. |
+| 📦 **All-in-One ZIP Archiving** | Download individual dataset folders or zip all workspace datasets into a single archive (`DatasetGPT_All_Extracted_Datasets.zip`). |
+| ⌘ **Command Search Palette** | Global hotkey modal (`Cmd+K` or `Ctrl+K`) for fast command execution and dataset navigation. |
+| 🛡️ **Enterprise Security** | Built-in Path Jail protection against Directory Traversal, Starlette Security Headers, IP Rate Limiting, and masked API keys. |
+
+---
+
+## 🏗️ System Architecture
+
+```text
+DatasetGPT Workspace
+├── 🧠 Backend (FastAPI + Python 3.13)
+│   ├── main.py                --> REST API Server, Rate Limiter, Security Headers, Static File Router
+│   ├── agent_engine.py        --> Ashna AI Neural Core Agent & Intent Processor
+│   ├── kaggle_engine.py       --> Kaggle Datasets Extraction & Download Engine
+│   ├── uci_engine.py          --> UCI Machine Learning Repository Scraper & Extractor
+│   └── data_profiler.py       --> Tabular EDA Data Profiler & Summary Statistics Engine
+│
+└── 🎨 Frontend (React 18 + Vite + Tailwind CSS)
+    ├── src/App.jsx            --> 3-Column Desktop Application Shell & State Orchestrator
+    ├── src/components/
+    │   ├── TopBar.jsx         --> Floating Navigation, Breadcrumbs & Cmd+K Trigger
+    │   ├── Sidebar.jsx        --> Workspace Navigation Tabs & Recent Chat History
+    │   ├── EmptyState.jsx     --> Main Dashboard Overview, Greetings & Insights
+    │   ├── RecentDatasets.jsx --> Dataset Cards with Glowing Status Indicators (● Ready, ● Analyzing)
+    │   ├── AnalyticsCards.jsx --> Metric Cards (Rows, Columns, Null %, Insights Count)
+    │   ├── AIInsightsPanel.jsx--> Pattern Discoveries & Automated Insight Cards
+    │   ├── VisualizationArea.jsx --> Interactive Data Chart Workspace (Line, Bar, Pie, Table)
+    │   ├── MessageInput.jsx   --> AI Command Center Input Composer & Quick Action Glass Pills
+    │   ├── ChatMessage.jsx    --> Glassmorphic Markdown Table Renderer & Code Copy Buttons
+    │   ├── FileExplorer.jsx   --> Extracted Datasets Tree & ZIP Download Buttons
+    │   ├── DataPreviewer.jsx  --> Tabular Data Profile Modal Drawer
+    │   └── CommandSearch.jsx  --> Cmd+K Palette Modal
+    └── src/index.css          --> Custom Glassmorphism CSS Tokens & Radial Mesh Gradients
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Node.js**: v18.0.0 or higher
+- **Python**: v3.9 or higher
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/manish8171/DatasetGPT.git
+cd DatasetGPT
+```
+
+### 2. Frontend Installation & Build
+```bash
+# Install node dependencies
+npm install
+
+# Build production bundle
+npm run build
+```
+
+### 3. Backend Setup
+```bash
+# Create Python virtual environment
+python3 -m venv backend/venv
+
+# Activate virtual environment (Linux/macOS)
+source backend/venv/bin/activate
+
+# Install Python requirements
+pip install -r backend/requirements.txt
+```
+
+### 4. Set Environment Variables
+Copy `.env.example` to `.env` or set in your environment:
+```bash
+export PORT=3000
+export ASHNA_API_KEY="your_ashna_api_key"
+export KAGGLE_API_TOKEN="your_kaggle_api_token"
+```
+
+### 5. Launch Application
+```bash
+export PYTHONPATH=.
+python3 backend/main.py
+```
+Open your browser and navigate to **`http://localhost:3000`**.
+
+---
+
+## 📡 API Reference
+
+| Endpoint | Method | Description |
+| :--- | :--- | :--- |
+| `/api/health` | `GET` | System health check and API status. |
+| `/api/chat` | `POST` | Primary AI Chat co-pilot endpoint powering Ashna AI queries. |
+| `/api/datasets/search` | `GET` | Search datasets across Kaggle and UCI ML Repository. |
+| `/api/datasets/download` | `POST` | Download & extract dataset by reference ID. |
+| `/api/datasets/files` | `GET` | List all extracted dataset files in workspace. |
+| `/api/datasets/preview` | `POST` | Profile CSV file schema and return row/col stats. |
+| `/api/datasets/download-file` | `GET` | Secure single file download endpoint. |
+| `/api/datasets/download-folder-zip` | `GET` | Zip and download specific dataset folder. |
+| `/api/datasets/download-all-zip` | `GET` | Zip and download all workspace datasets in one archive. |
+| `/api/settings/status` | `GET` | Masked API credentials status. |
+| `/api/settings/keys` | `POST` | Dynamic API keys update endpoint. |
+
+---
+
+## 🛡️ Security Hardening
+
+DatasetGPT includes production security controls:
+
+> [!IMPORTANT]
+> - **Path Jail Check**: Prevents Directory Traversal attacks (`../../etc/passwd`) using strict `os.path.commonpath` verification.
+> - **Security Headers**: Enforces `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `X-XSS-Protection`, and `Content-Security-Policy`.
+> - **IP Rate Limiting**: Sliding window middleware restricting max requests to prevent API abuse.
+> - **Secret Masking**: No hardcoded production API tokens in source code; status API masks credentials.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+
+<div align="center">
+  <sub>Built with ❤️ by Manish • Powered by Ashna AI, Kaggle & UCI ML Repository</sub>
+</div>
+
+<!-- Log update 4 on 2026-08-03T14:29:00 -->
+
+<!-- Log update 17 on 2026-08-04T23:38:00 -->
+
+<!-- Log update 26 on 2026-08-06T10:04:00 -->
+
+<!-- Log update 39 on 2026-08-07T21:36:00 -->
+
+<!-- Log update 40 on 2026-08-07T23:14:00 -->
+
+<!-- Log update 61 on 2026-08-10T21:28:00 -->
+
+<!-- Log update 79 on 2026-08-13T21:19:00 -->
+
+<!-- Log update 81 on 2026-08-14T11:07:00 -->
+
+<!-- Log update 87 on 2026-08-15T11:09:00 -->
+
+<!-- Log update 88 on 2026-08-15T12:44:00 -->
+
+<!-- Log update 106 on 2026-08-18T08:56:00 -->
+
+<!-- Log update 143 on 2026-08-23T14:49:00 -->
+
+<!-- Log update 145 on 2026-08-24T09:47:00 -->
+
+<!-- Log update 169 on 2026-08-27T12:29:00 -->
+
+<!-- Log update 183 on 2026-08-29T15:08:00 -->
+
+<!-- Log update 190 on 2026-08-30T19:25:00 -->
+
+<!-- Log update 192 on 2026-08-30T22:33:00 -->
+
+<!-- Log update 197 on 2026-08-31T14:18:00 -->
+
+<!-- Log update 204 on 2026-09-01T17:57:00 -->
+
+<!-- Log update 208 on 2026-09-02T09:38:00 -->
+
+<!-- Log update 211 on 2026-09-02T15:15:00 -->
+
+<!-- Build sync 3 on 2026-07-25T10:58:00 -->
+
+<!-- Build sync 16 on 2026-07-26T18:31:00 -->
+
+<!-- Build sync 37 on 2026-07-29T13:13:00 -->
+
+<!-- Build sync 41 on 2026-07-30T10:34:00 -->
+
+<!-- Build sync 42 on 2026-07-30T12:36:00 -->
+
+<!-- Build sync 54 on 2026-08-01T09:49:00 -->
+
+<!-- Build sync 55 on 2026-08-01T09:18:00 -->
+
+<!-- Build sync 57 on 2026-08-01T12:48:00 -->
+
+<!-- Build sync 77 on 2026-08-04T08:07:00 -->
+
+<!-- Build sync 108 on 2026-08-08T12:57:00 -->
+
+<!-- Build sync 113 on 2026-08-09T11:47:00 -->
+
+<!-- Build sync 119 on 2026-08-10T09:12:00 -->
+
+<!-- Build sync 129 on 2026-08-11T10:02:00 -->
+
+<!-- Build sync 149 on 2026-08-14T10:43:00 -->
+
+<!-- Build sync 154 on 2026-08-14T16:01:00 -->
+
+<!-- Build sync 158 on 2026-08-15T12:06:00 -->
+
+<!-- Build sync 169 on 2026-08-16T17:17:00 -->
+
+<!-- Build sync 181 on 2026-08-18T13:22:00 -->
+
+<!-- Build sync 186 on 2026-08-19T10:09:00 -->
+
+<!-- Build sync 200 on 2026-08-20T15:10:00 -->
+
+<!-- Build sync 211 on 2026-08-21T15:21:00 -->
+
+<!-- Build sync 217 on 2026-08-22T12:03:00 -->
+
+<!-- Build sync 224 on 2026-08-23T13:05:00 -->
+
+<!-- Build sync 244 on 2026-08-26T08:49:00 -->
+
+<!-- Build sync 253 on 2026-08-27T09:16:00 -->
+
+<!-- Build sync 262 on 2026-08-28T09:32:00 -->
+
+<!-- Build sync 265 on 2026-08-28T11:35:00 -->
+
+<!-- Build sync 272 on 2026-08-29T13:44:00 -->
+
+<!-- Build sync 273 on 2026-08-29T14:57:00 -->
+
+<!-- Build sync 278 on 2026-08-30T10:26:00 -->
+
+<!-- Build sync 291 on 2026-09-01T10:49:00 -->
+
+<!-- Build sync 294 on 2026-09-01T12:47:00 -->

@@ -1,0 +1,109 @@
+# Changelog
+
+## v1.0.3
+- Security hardening audit complete
+- Pushed to GitHub repository
+
+<!-- Log update 20 on 2026-08-05T13:37:00 -->
+
+<!-- Log update 23 on 2026-08-05T18:12:00 -->
+
+<!-- Log update 37 on 2026-08-07T16:15:00 -->
+
+<!-- Log update 42 on 2026-08-08T09:53:00 -->
+
+<!-- Log update 45 on 2026-08-08T15:41:00 -->
+
+<!-- Log update 73 on 2026-08-13T08:29:00 -->
+
+<!-- Log update 75 on 2026-08-13T13:04:00 -->
+
+<!-- Log update 102 on 2026-08-17T10:45:00 -->
+
+<!-- Log update 111 on 2026-08-18T18:22:00 -->
+
+<!-- Log update 130 on 2026-08-21T17:35:00 -->
+
+<!-- Log update 133 on 2026-08-21T23:43:00 -->
+
+<!-- Log update 136 on 2026-08-22T11:12:00 -->
+
+<!-- Log update 142 on 2026-08-23T13:07:00 -->
+
+<!-- Log update 160 on 2026-08-26T11:20:00 -->
+
+<!-- Log update 167 on 2026-08-27T09:10:00 -->
+
+<!-- Log update 175 on 2026-08-28T10:20:00 -->
+
+<!-- Log update 176 on 2026-08-28T12:34:00 -->
+
+<!-- Log update 179 on 2026-08-28T18:00:00 -->
+
+<!-- Log update 191 on 2026-08-30T21:19:00 -->
+
+<!-- Log update 199 on 2026-08-31T19:54:00 -->
+
+<!-- Log update 214 on 2026-09-02T21:50:00 -->
+
+<!-- Build sync 10 on 2026-07-26T11:03:00 -->
+
+<!-- Build sync 24 on 2026-07-28T09:07:00 -->
+
+<!-- Build sync 46 on 2026-07-30T15:33:00 -->
+
+<!-- Build sync 47 on 2026-07-30T16:39:00 -->
+
+<!-- Build sync 50 on 2026-07-31T10:47:00 -->
+
+<!-- Build sync 61 on 2026-08-02T09:07:00 -->
+
+<!-- Build sync 69 on 2026-08-03T11:30:00 -->
+
+<!-- Build sync 79 on 2026-08-04T10:34:00 -->
+
+<!-- Build sync 94 on 2026-08-06T11:27:00 -->
+
+<!-- Build sync 104 on 2026-08-07T14:52:00 -->
+
+<!-- Build sync 107 on 2026-08-08T10:08:00 -->
+
+<!-- Build sync 114 on 2026-08-09T11:21:00 -->
+
+<!-- Build sync 131 on 2026-08-11T12:19:00 -->
+
+<!-- Build sync 145 on 2026-08-13T13:46:00 -->
+
+<!-- Build sync 148 on 2026-08-14T09:14:00 -->
+
+<!-- Build sync 170 on 2026-08-16T17:40:00 -->
+
+<!-- Build sync 172 on 2026-08-17T10:22:00 -->
+
+<!-- Build sync 175 on 2026-08-17T13:00:00 -->
+
+<!-- Build sync 183 on 2026-08-18T15:58:00 -->
+
+<!-- Build sync 185 on 2026-08-19T09:27:00 -->
+
+<!-- Build sync 198 on 2026-08-20T12:59:00 -->
+
+<!-- Build sync 225 on 2026-08-23T13:43:00 -->
+
+<!-- Build sync 235 on 2026-08-24T15:51:00 -->
+
+<!-- Build sync 241 on 2026-08-25T13:32:00 -->
+
+<!-- Build sync 252 on 2026-08-26T16:17:00 -->
+
+<!-- Build sync 269 on 2026-08-29T09:13:00 -->
+
+<!-- Build sync 270 on 2026-08-29T10:04:00 -->
+
+<!-- Build sync 277 on 2026-08-30T09:31:00 -->
+
+<!-- Build sync 281 on 2026-08-30T13:14:00 -->
+
+<!-- Build sync 282 on 2026-08-30T13:46:00 -->
+
+<!-- Build sync 290 on 2026-09-01T09:37:00 -->

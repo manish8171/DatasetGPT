@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://www.kaggle.com/static/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DatasetGPT — Professional AI Data Laboratory & Workspace</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              gptDark: '#080A12',
+              gptCanvas: '#0D101C',
+              gptPanel: 'rgba(255, 255, 255, 0.04)',
+              gptCard: 'rgba(255, 255, 255, 0.05)',
+              gptHover: 'rgba(255, 255, 255, 0.08)',
+              gptPurple: '#8B5CF6',
+              gptPurpleLight: '#A855F7',
+              gptPurpleDark: '#6D28D9',
+              gptText: '#F3F4F6',
+              gptSubtext: '#9CA3AF',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              heading: ['Outfit', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#080A12] text-[#F3F4F6] min-h-screen selection:bg-[#8B5CF6]/30">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+# Contributing
+Pull requests are welcome. Make sure to run `npm run build`.
+
+<!-- Log update 7 on 2026-08-03T21:35:00 -->
+
+<!-- Log update 11 on 2026-08-04T13:44:00 -->
+
+<!-- Log update 12 on 2026-08-04T14:28:00 -->
+
+<!-- Log update 13 on 2026-08-04T16:48:00 -->
+
+<!-- Log update 35 on 2026-08-07T13:52:00 -->
+
+<!-- Log update 46 on 2026-08-08T16:54:00 -->
+
+<!-- Log update 55 on 2026-08-10T09:48:00 -->
+
+<!-- Log update 63 on 2026-08-11T11:28:00 -->
+
+<!-- Log update 74 on 2026-08-13T10:49:00 -->
+
+<!-- Log update 86 on 2026-08-15T09:25:00 -->
+
+<!-- Log update 89 on 2026-08-15T15:19:00 -->
+
+<!-- Log update 91 on 2026-08-15T18:10:00 -->
+
+<!-- Log update 96 on 2026-08-16T17:44:00 -->
+
+<!-- Log update 132 on 2026-08-21T20:08:00 -->
+
+<!-- Log update 151 on 2026-08-24T21:28:00 -->
+
+<!-- Log update 156 on 2026-08-25T13:03:00 -->
+
+<!-- Log update 159 on 2026-08-26T08:05:00 -->
+
+<!-- Log update 162 on 2026-08-26T14:29:00 -->
+
+<!-- Log update 178 on 2026-08-28T16:09:00 -->
+
+<!-- Log update 181 on 2026-08-29T11:55:00 -->
+
+<!-- Log update 187 on 2026-08-30T13:43:00 -->
+
+<!-- Log update 198 on 2026-08-31T17:23:00 -->
+
+<!-- Build sync 2 on 2026-07-25T09:33:00 -->
+
+<!-- Build sync 8 on 2026-07-26T09:05:00 -->
+
+<!-- Build sync 9 on 2026-07-26T10:34:00 -->
+
+<!-- Build sync 26 on 2026-07-28T12:58:00 -->
+
+<!-- Build sync 35 on 2026-07-29T12:17:00 -->
+
+<!-- Build sync 38 on 2026-07-29T15:36:00 -->
+
+<!-- Build sync 52 on 2026-07-31T12:39:00 -->
+
+<!-- Build sync 53 on 2026-07-31T14:49:00 -->
+
+<!-- Build sync 71 on 2026-08-03T13:51:00 -->
+
+<!-- Build sync 106 on 2026-08-08T09:43:00 -->
+
+<!-- Build sync 117 on 2026-08-09T15:32:00 -->
+
+<!-- Build sync 127 on 2026-08-10T17:56:00 -->
+
+<!-- Build sync 132 on 2026-08-11T13:23:00 -->
+
+<!-- Build sync 134 on 2026-08-12T09:56:00 -->
+
+<!-- Build sync 136 on 2026-08-12T11:01:00 -->
+
+<!-- Build sync 155 on 2026-08-15T08:04:00 -->
+
+<!-- Build sync 159 on 2026-08-15T13:14:00 -->
+
+<!-- Build sync 162 on 2026-08-16T10:09:00 -->
+
+<!-- Build sync 167 on 2026-08-16T15:04:00 -->
+
+<!-- Build sync 201 on 2026-08-20T16:38:00 -->
+
+<!-- Build sync 203 on 2026-08-20T18:01:00 -->
+
+<!-- Build sync 210 on 2026-08-21T14:04:00 -->
+
+<!-- Build sync 214 on 2026-08-22T10:37:00 -->
+
+<!-- Build sync 219 on 2026-08-22T14:50:00 -->
+
+<!-- Build sync 232 on 2026-08-24T13:06:00 -->
+
+<!-- Build sync 239 on 2026-08-25T11:43:00 -->
+
+<!-- Build sync 246 on 2026-08-26T10:07:00 -->
+
+<!-- Build sync 248 on 2026-08-26T12:08:00 -->
+
+<!-- Build sync 274 on 2026-08-29T14:49:00 -->
+
+<!-- Build sync 284 on 2026-08-31T08:51:00 -->
+
+<!-- Build sync 286 on 2026-08-31T10:46:00 -->
+
+<!-- Build sync 300 on 2026-09-02T12:30:00 -->
