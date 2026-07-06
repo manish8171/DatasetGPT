@@ -156,3 +156,9 @@ A: Use the Settings Modal in the UI.
 <!-- Activity log 100 on 2025-10-11T12:22:26 -->
 
 <!-- Activity log 101 on 2025-10-11T12:34:39 -->
+
+<!-- Activity log 107 on 2025-10-14T08:09:52 -->
+
+<!-- Activity log 118 on 2025-10-18T11:17:14 -->
+
+<!-- Activity log 124 on 2025-10-18T18:51:43 -->
