@@ -202,3 +202,11 @@ A: Use the Settings Modal in the UI.
 <!-- Activity log 267 on 2025-12-04T10:42:54 -->
 
 <!-- Activity log 269 on 2025-12-04T11:31:28 -->
+
+<!-- Activity log 289 on 2025-12-09T13:43:08 -->
+
+<!-- Activity log 293 on 2025-12-10T09:27:28 -->
+
+<!-- Activity log 297 on 2025-12-11T08:59:48 -->
+
+<!-- Activity log 307 on 2025-12-13T11:00:45 -->
