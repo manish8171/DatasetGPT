@@ -300,3 +300,11 @@ A: Use the Settings Modal in the UI.
 <!-- Activity log 718 on 2026-05-11T09:07:00 -->
 
 <!-- Activity log 719 on 2026-05-11T11:28:15 -->
+
+<!-- Activity log 730 on 2026-05-13T15:47:52 -->
+
+<!-- Activity log 731 on 2026-05-13T16:26:13 -->
+
+<!-- Activity log 738 on 2026-05-19T10:23:21 -->
+
+<!-- Activity log 744 on 2026-05-25T09:18:53 -->
