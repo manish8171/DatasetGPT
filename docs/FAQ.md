@@ -320,3 +320,7 @@ A: Use the Settings Modal in the UI.
 <!-- Activity log 762 on 2026-06-06T09:46:17 -->
 
 <!-- Activity log 774 on 2026-06-09T14:13:24 -->
+
+<!-- Activity log 784 on 2026-06-13T08:02:02 -->
+
+<!-- Activity log 796 on 2026-06-16T13:36:20 -->
